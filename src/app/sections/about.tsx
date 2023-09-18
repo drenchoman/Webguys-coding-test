@@ -2,6 +2,8 @@ import styles from './about.module.css';
 import ImageTest from '../components/ImageTest';
 import Layers from '../../../public/icons/Layers.svg';
 
+// may need a sepeate component for  mobile view
+
 export default function About() {
   return (
     <div className={`section ${styles.background}`}>
@@ -16,6 +18,7 @@ export default function About() {
           <div className={styles.about}>
             <span>01</span>
             <h3>ABOUT WASSP</h3>
+            <span className={styles.hidden}>x</span>
           </div>
 
           <div className={styles.aboutColumn}>
