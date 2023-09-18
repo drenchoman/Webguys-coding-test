@@ -1,6 +1,6 @@
 export default function Landing() {
   return (
-    <div className="style">
+    <div className="section">
       <h1>Landing</h1>
     </div>
   );

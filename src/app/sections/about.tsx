@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="style">
+    <div className="section">
       <h1>About</h1>
     </div>
   );
