@@ -1,0 +1,5 @@
+.background {
+  background-image: url('../../../public/images/02.jpg');
+  background-size: cover;
+  background-position: center, center;
+}
