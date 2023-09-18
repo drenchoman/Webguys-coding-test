@@ -1,0 +1,67 @@
+.background {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  width: 35%;
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.quote {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin: 0;
+  max-width: 38ch;
+  margin-bottom: 1.5rem;
+}
+
+.name {
+  font-weight: 200;
+  margin: 0.1rem 0;
+}
+/* TODO: DECIDE ON UNIVERSAL MARGIN FOR MOBILE VIEW */
+
+@media screen and (max-width: 414px) {
+  .sidebar {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+  }
+  .sidebar > span {
+    margin-right: 3rem;
+  }
+  .wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .main {
+    margin: 0 1rem;
+  }
+
+  .quote {
+    font-size: 2rem;
+  }
+}
