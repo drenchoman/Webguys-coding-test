@@ -23,7 +23,7 @@ export default function News() {
       <div className={styles.wrapper}>
         <div className={styles.sidebar}>
           <span>05</span>
-          <h3>NEWS</h3>
+          <h3>LATEST NEWS</h3>
         </div>
         <div className={styles.main}>
           {news.map((n, i) => (
