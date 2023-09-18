@@ -1,3 +1,7 @@
+:root {
+  --main-color: #020506;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -30,7 +34,8 @@ body {
 }
 
 .section {
+  background-color: var(--main-color);
   width: 100vw;
   height: 100vh;
-  background-color: antiquewhite;
+  z-index: 2;
 }
