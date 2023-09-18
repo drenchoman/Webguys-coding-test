@@ -3,3 +3,41 @@
   background-size: cover;
   background-position: center, center;
 }
+
+.header {
+  font-size: 4rem;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1360px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  margin: 0 auto;
+  color: white;
+}
+
+.aboutColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aboutColumn > p {
+  max-width: 300px;
+  margin: 0.5rem 0;
+}
+
+.aboutColumn > span {
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
