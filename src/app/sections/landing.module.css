@@ -2,5 +2,31 @@
   background-image: url('../../../public/images/01.jpg');
   background-size: cover;
   background-position: center, center;
-  filter: brightness(0.8);
+  /* filter: brightness(0.8); */
+
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0) 0%,
+      rgba(2, 5, 6, 1) 100%
+    ),
+    url('../../../public/images/01.jpg');
+  background-image: -moz-linear-gradient(
+      rgba(0, 0, 0, 0) 0%,
+      rgba(2, 5, 6, 1) 100%
+    ),
+    url('../../../public/images/01.jpg');
+  background-image: -o-linear-gradient(
+      rgba(0, 0, 0, 0) 0%,
+      rgba(2, 5, 6, 1) 100%
+    ),
+    url('../../../public/images/01.jpg');
+  background-image: -ms-linear-gradient(
+      rgba(0, 0, 0, 0) 0%,
+      rgba(2, 5, 6, 1) 100%
+    ),
+    url('../../../public/images/01.jpg');
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0) 0%,
+      rgba(2, 5, 6, 1) 100%
+    ),
+    url('../../../public/images/01.jpg');
 }
