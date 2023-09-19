@@ -4,21 +4,21 @@
   background-position: center, center;
 
   background-image: -moz-linear-gradient(
-      rgba(0, 0, 0, 1) 0%,
+      rgba(2, 5, 6, 1) 0%,
       rgba(0, 0, 0, 0.03265056022408963) 50%,
-      rgba(0, 0, 0, 1) 100%
+      rgba(2, 5, 6, 1) 100%
     ),
     url('../../../public/images/02.jpg');
   background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 1) 0%,
+      rgba(2, 5, 6, 1) 0%,
       rgba(0, 0, 0, 0.03265056022408963) 50%,
-      rgba(0, 0, 0, 1) 100%
+      rgba(2, 5, 6, 1) 100%
     ),
     url('../../../public/images/02.jpg');
   background-image: linear-gradient(
-      rgba(0, 0, 0, 1) 0%,
+      rgba(2, 5, 6, 1) 0%,
       rgba(0, 0, 0, 0.03265056022408963) 50%,
-      rgba(0, 0, 0, 1) 100%
+      rgba(2, 5, 6, 1) 100%
     ),
     url('../../../public/images/02.jpg');
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);

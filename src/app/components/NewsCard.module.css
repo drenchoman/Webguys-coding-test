@@ -28,7 +28,7 @@
   transform: rotate(-45deg);
 }
 
-.imageWrapper {
+/* .imageWrapper {
   content: '';
   display: inline-block;
   position: absolute;
@@ -39,4 +39,4 @@
     rgb(0, 0, 0) 100%,
     rgba(0, 0, 0, 1) 100%
   );
-}
+} */
