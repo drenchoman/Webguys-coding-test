@@ -33,8 +33,12 @@
   align-items: center;
   border: 1px solid white;
   align-self: start;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2rem;
   border-radius: 1rem;
+}
+
+.button > img {
+  margin: 0 0.25rem;
 }
 
 .navbar {
@@ -93,4 +97,33 @@
 
 .rightNav > span {
   margin: 0.25rem 0;
+}
+
+@media screen and (max-width: 414px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .navbar {
+    margin: 2rem 0;
+  }
+
+  .sidebar {
+    height: 200px;
+    margin: 2rem 0;
+  }
+
+  .navwrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .rightNav {
+    margin-left: 2rem;
+  }
+
+  /* .navbar {
+    justify-content: space-between;
+  } */
 }
