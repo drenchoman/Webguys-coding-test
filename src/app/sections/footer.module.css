@@ -1,0 +1,96 @@
+.background {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1380px;
+  justify-content: space-between;
+}
+
+.sidebar {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar > p {
+  font-size: 1.5rem;
+  max-width: 30ch;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  align-self: start;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navwrapper {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.linksWrapper > * {
+  margin: 0.25rem 0;
+}
+
+.socialWrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialWrapper > * {
+  margin: 0.25rem 0;
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.officeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.officeWrapper > * {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+
+.rightNav > span {
+  margin: 0.25rem 0;
+}
