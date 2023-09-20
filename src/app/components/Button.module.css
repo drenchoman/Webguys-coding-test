@@ -1,0 +1,12 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  align-self: flex-start;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.button > img {
+  margin: 0 0.25rem;
+}

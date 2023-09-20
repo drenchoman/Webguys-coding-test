@@ -28,7 +28,7 @@
   max-width: 30ch;
 }
 
-.button {
+/* .button {
   display: flex;
   align-items: center;
   border: 1px solid white;
@@ -39,7 +39,7 @@
 
 .button > img {
   margin: 0 0.25rem;
-}
+} */
 
 .navbar {
   display: flex;

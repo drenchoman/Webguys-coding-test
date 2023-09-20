@@ -1,8 +1,6 @@
 import styles from './footer.module.css';
-import ArrowRight from '../../../public/icons/ArrowRight.svg';
-import Image from 'next/image';
 import Link from 'next/link';
-
+import Button from '../components/Button';
 const footerLinks = [
   { name: 'Home', url: '/' },
   { name: 'Products', url: '/' },
@@ -28,14 +26,7 @@ export default function Footer() {
       <div className={styles.wrapper}>
         <div className={styles.sidebar}>
           <p>{footerCTA}</p>
-          <div className={styles.button}>
-            <span> Contact</span>
-            <Image
-              className={styles.arrow}
-              src={ArrowRight}
-              alt="Right Arrow"
-            />
-          </div>
+          <Button name="Contact" />
           <Link href="/">Subscribe to our newsletter</Link>
         </div>
         <div className={styles.navbar}>
