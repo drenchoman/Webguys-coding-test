@@ -33,6 +33,19 @@ body {
   font-weight: 500;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Norwester';
+}
+
+p,
+span,
+a {
+  font-family: 'Neue';
+}
+
 .section {
   background-color: var(--main-color);
   width: 100vw;
