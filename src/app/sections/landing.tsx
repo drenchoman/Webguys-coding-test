@@ -1,7 +1,7 @@
 import styles from './landing.module.css';
 import Button from '../components/Button';
 
-const header = 'MULTIBEAM SONAR PRODUCTS & SOLUTIONS';
+const header = 'MULTIBEAM SONAR PRODUCTS & SOLUTIONS.';
 const subheader = 'SEA IT ALL';
 const cta =
   'WASSP multi-beam enables sustainable fishing, exploration, and surveys with versality and detail.';
