@@ -22,7 +22,7 @@ export default function Landing() {
           </h1>
         </div>
         <div className={styles.ctawrapper}>
-          <div className={styles.test}>
+          <div className={styles.textwrap}>
             <p>{cta}</p>
           </div>
           <div className={styles.button}>
