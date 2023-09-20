@@ -1,5 +1,7 @@
 import styles from './landing.module.css';
-import Button from '../components/Button';
+// import Button from '../components/Button';
+import ArrowRight from '../../../public/icons/ArrowRight.svg';
+import Image from 'next/image';
 
 const header = 'MULTIBEAM SONAR PRODUCTS & SOLUTIONS.';
 const subheader = 'SEA IT ALL';
@@ -18,8 +20,17 @@ export default function Landing() {
           </h1>
         </div>
         <div className={styles.ctawrapper}>
-          <p>{cta}</p>
-          <Button name="Contact Us" />
+          <div className={styles.test}>
+            <p>{cta}</p>
+          </div>
+          <div className={styles.button}>
+            <span>Contact Us</span>
+            <Image
+              className={styles.arrow}
+              src={ArrowRight}
+              alt="Right Arrow"
+            />
+          </div>
         </div>
       </div>
     </div>
