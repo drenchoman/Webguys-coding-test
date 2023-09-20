@@ -10,6 +10,7 @@
   max-width: 1386px;
   margin: 0 auto;
   color: white;
+  z-index: 3;
 }
 
 .nav {
@@ -19,6 +20,7 @@
 }
 .nav > * {
   margin: 0 0.5rem;
+  color: white;
 }
 
 .langWrapper {
@@ -29,4 +31,17 @@
 
 .langWrapper > span {
   margin: 0 0.25rem;
+}
+
+@media screen and (max-width: 414px) {
+  .langWrapper {
+    display: none;
+  }
+  .wrapper {
+    padding: 1.5rem 1rem;
+  }
+
+  .logoWrapper > img {
+    width: 130px;
+  }
 }
