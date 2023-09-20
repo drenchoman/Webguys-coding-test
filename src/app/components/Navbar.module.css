@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 3rem 0;
+
+  max-width: 1386px;
+  margin: 0 auto;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav > * {
+  margin: 0 0.5rem;
+}
+
+.langWrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.langWrapper > span {
+  margin: 0 0.25rem;
+}

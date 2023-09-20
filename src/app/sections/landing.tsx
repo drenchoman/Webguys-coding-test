@@ -2,6 +2,7 @@ import styles from './landing.module.css';
 // import Button from '../components/Button';
 import ArrowRight from '../../../public/icons/ArrowRight.svg';
 import Image from 'next/image';
+import Navbar from '../components/Navbar';
 
 const header = 'MULTIBEAM SONAR PRODUCTS & SOLUTIONS.';
 const subheader = 'SEA IT ALL';
@@ -11,6 +12,7 @@ const cta =
 export default function Landing() {
   return (
     <div className={`section ${styles.background}`}>
+      <Navbar />
       <div className={styles.wrapper}>
         <div className={styles.headerwrapper}>
           <h1>
