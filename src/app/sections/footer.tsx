@@ -1,6 +1,9 @@
 import styles from './footer.module.css';
 import Link from 'next/link';
 import Button from '../components/Button';
+import Logo from '../../../public/icons/WasspMultibeam.svg';
+import Image from 'next/image';
+
 const footerLinks = [
   { name: 'Home', url: '/' },
   { name: 'Products', url: '/' },
@@ -58,6 +61,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <Image className={styles.logo} src={Logo} alt="logo" />
     </div>
   );
 }

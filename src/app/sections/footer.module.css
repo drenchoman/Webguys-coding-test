@@ -5,6 +5,7 @@
   height: 100vh;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
 }
 
 .wrapper {
@@ -28,6 +29,11 @@
   max-width: 30ch;
 }
 
+.logo {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
 /* .button {
   display: flex;
   align-items: center;
