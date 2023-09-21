@@ -7,6 +7,7 @@ import Footer from './sections/footer';
 import Landing from './sections/landing';
 import News from './sections/news';
 import Testimonials from './sections/testimonials';
+import Scroller from './components/Scroller';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Featured />
       <Features />
+      <Scroller />
       <Testimonials />
       <News />
       <Footer />
