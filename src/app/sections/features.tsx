@@ -57,7 +57,7 @@ export default function Features() {
             </p>
           </div>
           <div className={styles.image}>
-            <Image img={Layers2} alt="Layers" />
+            <Image img={Layers2} />
           </div>
         </div>
       </div>
