@@ -1,5 +1,7 @@
 .background {
   justify-content: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .imageWrapper {
@@ -14,6 +16,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 750px;
+  margin: 0 auto;
 
   /* align-items: center; */
 }
@@ -25,8 +28,6 @@
   justify-content: space-evenly;
 }
 
-.aboutColumn {
-}
 .about {
   display: flex;
   flex-direction: row;

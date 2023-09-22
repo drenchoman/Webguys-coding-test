@@ -4,7 +4,7 @@
   width: 100%;
   height: 100vh;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
 }
 
@@ -12,7 +12,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1380px;
+  max-width: var(--max-width);
+  margin: 0 auto;
   justify-content: space-between;
 }
 
