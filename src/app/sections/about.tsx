@@ -1,14 +1,15 @@
 import styles from './about.module.css';
-import ImageTest from '../components/ImageTest';
+import arrow from '../../../public/icons/ArrowRight.svg';
+import Image from '../components/Image';
 import Layers from '../../../public/icons/Layers.svg';
-
+import Button from '../components/Button';
 // may need a sepeate component for  mobile view
 
 export default function About() {
   return (
     <div className={`section ${styles.background}`}>
       <div className={styles.imageWrapper}>
-        <ImageTest img={Layers} />
+        <Image img={Layers} alt="Layers" />
       </div>
       <div className={styles.wrapper}>
         <div className={styles.header}>
@@ -17,7 +18,8 @@ export default function About() {
         <div className={styles.aboutRow}>
           <div className={styles.about}>
             <span>01</span>
-            <h3>ABOUT WASSP</h3>
+            <h3 className={styles.desktopHeader}>ABOUT WASSP</h3>
+            <h3 className={styles.mobileHeader}>ABOUT</h3>
             <span className={styles.hidden}>x</span>
           </div>
 
@@ -30,9 +32,7 @@ export default function About() {
               map fish in water, and make better decisions with the
               user-friendly advanced mode.
             </p>
-            <div className={styles.button}>
-              <span>Our Story</span>
-            </div>
+            <Button name="Our Story" />
           </div>
         </div>
       </div>
