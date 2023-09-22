@@ -5,9 +5,11 @@ export default function Featured() {
   return (
     <div className={`section ${styles.background}`}>
       <div className={styles.wrapper}>
-        <div className={styles.aboutColumn}>
+        <div className={styles.aboutColumnTop}>
           <span>01 ------------- 03</span>
-          <span>(FISHING SERIES)</span>
+          <span className={styles.desktopHeader}>
+            (FISHING SERIES)
+          </span>
           <h2 className={styles.header}>F - SERIES</h2>
         </div>
         <div className={styles.aboutColumn}>

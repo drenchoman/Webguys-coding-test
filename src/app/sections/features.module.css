@@ -18,7 +18,7 @@
 .sidebar {
   display: flex;
   width: 35%;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: row;
   justify-content: space-around;
 }
@@ -60,15 +60,22 @@
 
 .featuresAbout {
   position: relative;
+  z-index: 5;
 }
 
 .image {
   position: absolute;
-  z-index: -20;
+  z-index: 1;
+  bottom: 0;
   left: 20rem;
   filter: brightness(0.7);
   /* top: -10rem;
   left: -20rem; */
+}
+
+.image > img {
+  width: 500px;
+  height: 500px;
 }
 
 .featuresAbout > p {
@@ -84,6 +91,11 @@
 @media screen and (max-width: 414px) {
   .wrapper {
     flex-direction: column;
+    padding: 0 var(--padding-md);
+    width: 100%;
+  }
+  .header {
+    font-size: 2rem;
   }
   .featuresWrapper {
     overflow-y: auto;
@@ -94,5 +106,8 @@
   }
   .sidebar {
     margin: 1rem 0;
+  }
+  .image {
+    left: 0;
   }
 }

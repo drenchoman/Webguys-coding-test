@@ -1,5 +1,5 @@
 import styles from './features.module.css';
-import ImageTest from '../components/Image';
+import Image from '../components/Image';
 import Layers2 from '../../../public/icons/Layers2.svg';
 // Can pass through as a prop from page
 const features = [
@@ -56,7 +56,7 @@ export default function Features() {
             </p>
           </div>
           <div className={styles.image}>
-            <ImageTest img={Layers2} />
+            <Image img={Layers2} alt="Layers" />
           </div>
         </div>
       </div>
