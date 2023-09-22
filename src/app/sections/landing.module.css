@@ -102,6 +102,10 @@
   margin: 1rem 0;
 }
 
+.button > span {
+  margin: 0.25rem 0;
+}
+
 .button > img {
   margin: 0 0.25rem;
 }

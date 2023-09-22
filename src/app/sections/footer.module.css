@@ -34,19 +34,8 @@
   position: absolute;
   bottom: 1rem;
   margin: 0 auto;
+  filter: brightness(0.1) sepia(0.6) hue-rotate(-150deg) saturate(5);
 }
-/* .button {
-  display: flex;
-  align-items: center;
-  border: 1px solid white;
-  align-self: start;
-  padding: 0.5rem 2rem;
-  border-radius: 1rem;
-}
-
-.button > img {
-  margin: 0 0.25rem;
-} */
 
 .navbar {
   display: flex;
@@ -130,7 +119,10 @@
     margin-left: 2rem;
   }
 
-  /* .navbar {
-    justify-content: space-between;
-  } */
+  .logo {
+    position: absolute;
+    bottom: -1rem;
+    max-width: 360px;
+    margin: 0 auto;
+  }
 }
