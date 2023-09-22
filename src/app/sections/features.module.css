@@ -18,7 +18,6 @@
 .sidebar {
   display: flex;
   width: 35%;
-  /* align-items: center; */
   flex-direction: row;
   justify-content: space-around;
 }
@@ -42,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem var(--padding-lg);
   margin: 0.5rem;
   margin-top: 0;
 }
@@ -55,7 +54,7 @@
 
 .main > span {
   font-size: 2rem;
-  margin: 1rem 0;
+  margin: var(--margin-md) 0;
 }
 
 .featuresAbout {
@@ -69,8 +68,6 @@
   bottom: 0;
   left: 20rem;
   filter: brightness(0.7);
-  /* top: -10rem;
-  left: -20rem; */
 }
 
 .image > img {
@@ -84,7 +81,7 @@
 }
 
 .featuresAbout > * {
-  margin: 1rem 0;
+  margin: var(--margin-md) 0;
   z-index: 25;
 }
 
@@ -105,7 +102,7 @@
     min-width: 300px;
   }
   .sidebar {
-    margin: 1rem 0;
+    margin: var(--margin-md) 0;
   }
   .image {
     left: 0;

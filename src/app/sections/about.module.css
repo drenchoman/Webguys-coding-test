@@ -25,14 +25,12 @@
   max-width: 950px;
   margin: 0 auto;
   padding-left: 15rem;
-
-  /* align-items: center; */
 }
 
 .aboutRow {
   display: flex;
   flex-direction: row;
-  margin: 2rem 0;
+  margin: var(--margin-lg) 0;
   justify-content: space-evenly;
 }
 
@@ -48,14 +46,6 @@
 .aboutRow > * {
   width: 100%;
 }
-
-/* .button {
-  max-width: 100px;
-  border: 1px solid white;
-  padding: 3px;
-  border-radius: 1rem;
-  align-self: flex-end;
-} */
 
 .header {
   font-family: 'Norwester';
@@ -95,7 +85,6 @@
   .imageWrapper {
     top: -10rem;
     left: 0;
-
     width: 100%;
     position: absolute;
   }

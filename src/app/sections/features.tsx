@@ -1,7 +1,8 @@
 import styles from './features.module.css';
 import Image from '../components/Image';
 import Layers2 from '../../../public/icons/Layers2.svg';
-// Can pass through as a prop from page
+
+// TODO : Selected Id shows name and paragprah
 const features = [
   {
     id: '01',
