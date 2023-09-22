@@ -18,7 +18,6 @@
 .sidebar {
   display: flex;
   width: 35%;
-  /* align-items: center; */
   flex-direction: row;
   justify-content: space-around;
 }
@@ -42,7 +41,6 @@
   font-weight: 200;
   margin: 0.1rem 0;
 }
-/* TODO: DECIDE ON UNIVERSAL MARGIN FOR MOBILE VIEW */
 
 @media screen and (max-width: 414px) {
   .sidebar {
