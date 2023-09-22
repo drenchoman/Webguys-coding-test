@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className={`section ${styles.background}`}>
       <div className={styles.imageWrapper}>
-        <Image img={Layers} alt="Layers" />
+        <Image img={Layers} />
       </div>
       <div className={styles.wrapper}>
         <div className={styles.header}>
