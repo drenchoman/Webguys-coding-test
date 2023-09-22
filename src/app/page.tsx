@@ -8,6 +8,7 @@ import Landing from './sections/landing';
 import News from './sections/news';
 import Testimonials from './sections/testimonials';
 import Scroller from './components/Scroller';
+import ImageScroller from './components/ImageScroller';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Scroller />
       <Testimonials />
       <News />
+      <ImageScroller />
       <Footer />
     </main>
   );
